@@ -1,8 +1,0 @@
-CHIP DecoderSegmentC {
-    IN A, B, C, D;
-    OUT c;
-
-    PARTS:
-    // Placeholder logic for segment C
-    And(a=A, b=B, out=c);
-}
