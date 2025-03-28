@@ -1,0 +1,14 @@
+CHIP Decoder13 {
+    IN D, C, B, A;
+    OUT a, b, c, d, e, f, g;
+
+    PARTS:
+    DecoderSegmentA(D=D, C=C, B=B, A=A,a=a); 
+    DecoderSegmentB(D=D, C=C, B=B, A=A, b=b);
+    DecoderSegmentC(D=D, C=C, B=B, A=A, c=c);
+    DecoderSegmentD(D=D, C=C, B=B, A=A, d=d);
+    DecoderSegmentE(D=D, C=C, B=B, A=A, e=e);
+    DecoderSegmentF(D=D, C=C, B=B, A=A, f=f);
+    DecoderSegmentG(D=D, C=C, B=B, A=A, g=g);
+}
+
